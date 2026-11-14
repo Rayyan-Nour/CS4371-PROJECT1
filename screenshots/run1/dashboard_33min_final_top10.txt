@@ -1,0 +1,11 @@
+Final capture at 22:39:45, producer stopped 22:35:37 (elapsed 33 min), 38465 messages collected, 14335 distinct entities
+    514  Trump
+    405  AI
+    328  FAA
+    264  US
+    227  Congress
+    143  American
+    142  Republicans
+    138  Democrats
+    136  Duffy
+    126  America

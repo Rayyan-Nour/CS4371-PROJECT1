@@ -1,0 +1,5 @@
+Run start (first counts in Elasticsearch): 2026-11-13 22:02:46 CST
+dashboard_15min.png  captured 22:17:46  elapsed 15 min  messages=20031
+dashboard_30min.png  FAILED at 22:32:46 (low memory) - only dashboard_30min_top10.txt saved, elapsed 30 min  messages=37813
+producer stopped 22:35:37 (elapsed 33 min), 38465 messages total
+dashboard_33min_final.png  captured 22:39:45  final totals after Spark processed all messages
