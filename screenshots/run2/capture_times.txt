@@ -1,0 +1,4 @@
+Run start (first counts in Elasticsearch): 2026-11-13 22:42:41 CST
+dashboard_15min.png  captured 22:57:41  elapsed 15 min  messages=56102
+dashboard_30min.png  captured 23:12:41  elapsed 30 min  messages=72421
+dashboard_45min.png  captured 23:27:41  elapsed 45 min  messages=87294

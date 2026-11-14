@@ -1,0 +1,88 @@
+Live class counts from the second streaming query (classification_stream.py), run 3
+Run start 2026-11-14 13:27:29; the query printed a running count per predicted class at every trigger.
+Selected batches (first, ~every 5 minutes, and last):
+
+--- Class counts, batch 0 (0 messages so far) ---
+  World           0  (0.0%)
+  Sports          0  (0.0%)
+  Business        0  (0.0%)
+  Sci/Tech        0  (0.0%)
+--
+
+--- Class counts, batch 15 (6852 messages so far) ---
+  World         723  (10.6%)
+  Sports       1188  (17.3%)
+  Business     2299  (33.6%)
+  Sci/Tech     2642  (38.6%)
+--
+
+--- Class counts, batch 30 (11536 messages so far) ---
+  World        1244  (10.8%)
+  Sports       2010  (17.4%)
+  Business     3827  (33.2%)
+  Sci/Tech     4455  (38.6%)
+--
+
+--- Class counts, batch 45 (16090 messages so far) ---
+  World        1740  (10.8%)
+  Sports       2830  (17.6%)
+  Business     5237  (32.5%)
+  Sci/Tech     6283  (39.0%)
+--
+
+--- Class counts, batch 60 (20311 messages so far) ---
+  World        2173  (10.7%)
+  Sports       3540  (17.4%)
+  Business     6654  (32.8%)
+  Sci/Tech     7944  (39.1%)
+Batch 18: published 619 entity counts
+--
+
+--- Class counts, batch 75 (24987 messages so far) ---
+  World        2675  (10.7%)
+  Sports       4379  (17.5%)
+  Business     8217  (32.9%)
+  Sci/Tech     9716  (38.9%)
+--
+
+--- Class counts, batch 90 (30595 messages so far) ---
+  World        3246  (10.6%)
+  Sports       5375  (17.6%)
+  Business    10087  (33.0%)
+  Sci/Tech    11887  (38.9%)
+--
+
+--- Class counts, batch 105 (35917 messages so far) ---
+  World        3821  (10.6%)
+  Sports       6336  (17.6%)
+  Business    11799  (32.9%)
+  Sci/Tech    13961  (38.9%)
+--
+
+--- Class counts, batch 121 (41721 messages so far) ---
+  World        4427  (10.6%)
+  Sports       7410  (17.8%)
+  Business    13684  (32.8%)
+  Sci/Tech    16200  (38.8%)
+--
+
+--- Class counts, batch 136 (47766 messages so far) ---
+  World        5061  (10.6%)
+  Sports       8415  (17.6%)
+  Business    15698  (32.9%)
+  Sci/Tech    18592  (38.9%)
+--
+
+--- Class counts, batch 151 (54445 messages so far) ---
+  World        5740  (10.5%)
+  Sports       9521  (17.5%)
+  Business    17904  (32.9%)
+  Sci/Tech    21280  (39.1%)
+--
+
+--- Class counts, batch 163 (60191 messages so far) ---
+  World        6358  (10.6%)
+  Sports      10517  (17.5%)
+  Business    19758  (32.8%)
+  Sci/Tech    23558  (39.1%)
+

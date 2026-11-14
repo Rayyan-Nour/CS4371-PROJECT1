@@ -1,0 +1,18 @@
+Capture at 13:42:29, elapsed 15 min, 123934 messages in data file, 10903 distinct entities
+    339  Trump
+    176  AI
+    152  US
+    142  Democrats
+    125  Republicans
+    124  Israel
+    124  FAA
+    117  Senate
+    112  Schumer
+    106  Congress
+
+Live class counts (classification query) at this time:
+--- Class counts, batch 78 (25915 messages so far) ---
+  World        2757  (10.6%)
+  Sports       4546  (17.5%)
+  Business     8535  (32.9%)
+  Sci/Tech    10077  (38.9%)

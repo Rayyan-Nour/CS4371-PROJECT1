@@ -1,0 +1,55 @@
+Messages classified: 93163
+
+Messages per predicted class:
+  World        9212  (9.9%)
+  Sports      16463  (17.7%)
+  Business    30317  (32.5%)
+  Sci/Tech    37171  (39.9%)
+
+=== World: 5 examples ===
+  [P(World)=0.296]  took me less than 10min 😱
+      probability vector [World, Sports, Business, Sci/Tech] = [0.296, 0.220, 0.215, 0.269]
+  [P(World)=0.328]  [Manny Calavera voice] It Lingers
+      probability vector [World, Sports, Business, Sci/Tech] = [0.328, 0.256, 0.158, 0.258]
+  [P(World)=0.344]  Did Hidari draw OG Celica in the first image?
+      probability vector [World, Sports, Business, Sci/Tech] = [0.344, 0.233, 0.278, 0.144]
+  [P(World)=0.841]  had an unplanned layover in lihui on the way to honolulu recently. open air terminals, wild chickens everywhere. not much to do, but what a place to be
+      probability vector [World, Sports, Business, Sci/Tech] = [0.841, 0.026, 0.061, 0.072]
+  [P(World)=0.422]  welcome to Vegas! as a resident, I am frightened to death as to why you might be here lol
+      probability vector [World, Sports, Business, Sci/Tech] = [0.422, 0.267, 0.121, 0.189]
+
+=== Sports: 5 examples ===
+  [P(Sports)=0.374]  I wonder if Elon’s chainsaw massacre had anything to do with anything?
+      probability vector [World, Sports, Business, Sci/Tech] = [0.103, 0.374, 0.247, 0.275]
+  [P(Sports)=0.484]  Mhm. Not always for here, but I just keep getting begged to show back up. Must be my natural charisma. [ ...Snickering to himself. He knows. ]
+      probability vector [World, Sports, Business, Sci/Tech] = [0.112, 0.484, 0.066, 0.338]
+  [P(Sports)=0.557]  Imagine being in bed with me and catching the view in this perfectly placed mirror 👀
+      probability vector [World, Sports, Business, Sci/Tech] = [0.006, 0.557, 0.418, 0.018]
+  [P(Sports)=0.481]  Bigots will allow their family and communities suffer in exchange for the mere illusion of inherent superiority over others
+      probability vector [World, Sports, Business, Sci/Tech] = [0.226, 0.481, 0.126, 0.167]
+  [P(Sports)=0.396]  i inadvertently did the Buddy (2026) criss-cross bandage thing
+      probability vector [World, Sports, Business, Sci/Tech] = [0.187, 0.396, 0.277, 0.140]
+
+=== Business: 5 examples ===
+  [P(Business)=0.326]  😥
+      probability vector [World, Sports, Business, Sci/Tech] = [0.188, 0.191, 0.326, 0.295]
+  [P(Business)=0.322]  Goodnight, good aminals! :3 🌙🌲🌳🌲🐺🌲🌳🌲🌙
+      probability vector [World, Sports, Business, Sci/Tech] = [0.172, 0.224, 0.322, 0.282]
+  [P(Business)=0.555]  He’s a builder. Why is the builder shredding the blueprints to his projects?
+      probability vector [World, Sports, Business, Sci/Tech] = [0.319, 0.041, 0.555, 0.085]
+  [P(Business)=0.481]  ... Something funny to you, miss? [ Despite the deadpan delivery, this question is being asked sincerely. ]
+      probability vector [World, Sports, Business, Sci/Tech] = [0.105, 0.382, 0.481, 0.032]
+  [P(Business)=0.642]  Dude, why can they jump? WHY CAN THEY FLY?!
+      probability vector [World, Sports, Business, Sci/Tech] = [0.140, 0.136, 0.642, 0.082]
+
+=== Sci/Tech: 5 examples ===
+  [P(Sci/Tech)=0.364]  In both holes? 😏😈
+      probability vector [World, Sports, Business, Sci/Tech] = [0.193, 0.232, 0.210, 0.364]
+  [P(Sci/Tech)=0.443]  cw #nsfw #vore #analvore sillay doodles done for partners..........
+      probability vector [World, Sports, Business, Sci/Tech] = [0.191, 0.123, 0.243, 0.443]
+  [P(Sci/Tech)=0.427]  [ Just staring at it. ] Okay. Thanks.
+      probability vector [World, Sports, Business, Sci/Tech] = [0.160, 0.029, 0.384, 0.427]
+  [P(Sci/Tech)=0.857]  I guess. Waitstaff never worked out. [ ...His mouth twitches like a smile tried to spread across his face but it was forced back by a force beyond him. ] Dunno why. I've got a sunny disposition. ... M
+      probability vector [World, Sports, Business, Sci/Tech] = [0.028, 0.111, 0.003, 0.857]
+  [P(Sci/Tech)=0.999]  Oh, sure. [ There's some sincerity to it despite a lack of warmth in his tone. Robots can tell when maintenance workers like their job, probably. There might even be evidence of this. ] More interesti
+      probability vector [World, Sports, Business, Sci/Tech] = [0.000, 0.001, 0.000, 0.999]

@@ -1,0 +1,11 @@
+Capture at 22:57:41, elapsed 15 min, 56102 messages collected, 7507 distinct entities
+    226  Trump
+    142  AI
+    126  FAA
+    101  US
+     79  Congress
+     69  American
+     63  America
+     62  Democrats
+     61  Republicans
+     56  Schumer

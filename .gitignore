@@ -1,3 +1,7 @@
 checkpoints/
 __pycache__/
 logs/
+data/ag_news/
+data/cleaned_messages.parquet/
+*.crc
+_SUCCESS
