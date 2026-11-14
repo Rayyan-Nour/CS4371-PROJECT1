@@ -1,0 +1,24 @@
+Hand-labelled messages: 50
+Labelled 'None of these': 34
+Labelled with one of the four classes: 16
+Accuracy on those 16: 6/16 = 37.5%
+
+Manual label (rows) vs predicted class (columns):
+                     World    Sports  Business  Sci/Tech
+  World                  1         2         2         3
+  Sports                 0         0         1         0
+  Business               0         0         2         0
+  Sci/Tech               0         1         1         3
+  None of these          4         7        10        13
+
+Misclassified messages (fit a class, model chose another):
+  #2 manual=World predicted=Business (p=0.34): that's 56 senate seats, let's go @hasanpiker
+  #7 manual=World predicted=Sports (p=0.57): Mullin & Duffy are incompetent yokels. They blamed Congress? The only explanation for that tack: Some other "bud" of the Grifter-in-Chief or his boys is owed a 
+  #11 manual=World predicted=Sci/Tech (p=0.58): @skyleesullivan.bsky.social #PowWowHighway. Educating the room mate.
+  #12 manual=World predicted=Sci/Tech (p=0.58): Mormonism, even compared to American Evangelicalism imo, is the most capitalist-brained religion of all time. It grew right along with American capitalism and i
+  #13 manual=World predicted=Sports (p=0.31): Happy 78th birthday to H.M The King
+  #16 manual=World predicted=Business (p=0.36): Greene goes against the wall with the rest of them no matter what she posts.
+  #28 manual=World predicted=Sci/Tech (p=0.34): Call for it in congress also.
+  #42 manual=Sports predicted=Business (p=0.39): can someone please tell him to point his toes
+  #44 manual=Sci/Tech predicted=Sports (p=0.72): Sometimes I have to remind myself that Vocaloid means just “Hatsune Miku and Kasane Teto” to people and not all 100+ voicebanks on the VOCALOID engine by Yamaha
+  #47 manual=Sci/Tech predicted=Business (p=0.41): Or...it finally ended the poor Win98 machine in back that everyone forgot about and has been BSOD since March '98
