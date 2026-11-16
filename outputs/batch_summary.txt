@@ -1,55 +1,59 @@
-Messages classified: 93163
+Messages classified: 150777
 
 Messages per predicted class:
-  World        9212  (9.9%)
-  Sports      16463  (17.7%)
-  Business    30317  (32.5%)
-  Sci/Tech    37171  (39.9%)
+  World       15518  (10.3%)
+  Sports      26775  (17.8%)
+  Business    48362  (32.1%)
+  Sci/Tech    60122  (39.9%)
+
+Examples: 5 random messages per class (seed 4371) with
+predicted probability >= 0.7, at least 6 words, no heavy word
+repetition (spam bots), at most 2 @mentions, and no explicit language.
 
 === World: 5 examples ===
-  [P(World)=0.296]  took me less than 10min 😱
-      probability vector [World, Sports, Business, Sci/Tech] = [0.296, 0.220, 0.215, 0.269]
-  [P(World)=0.328]  [Manny Calavera voice] It Lingers
-      probability vector [World, Sports, Business, Sci/Tech] = [0.328, 0.256, 0.158, 0.258]
-  [P(World)=0.344]  Did Hidari draw OG Celica in the first image?
-      probability vector [World, Sports, Business, Sci/Tech] = [0.344, 0.233, 0.278, 0.144]
-  [P(World)=0.841]  had an unplanned layover in lihui on the way to honolulu recently. open air terminals, wild chickens everywhere. not much to do, but what a place to be
-      probability vector [World, Sports, Business, Sci/Tech] = [0.841, 0.026, 0.061, 0.072]
-  [P(World)=0.422]  welcome to Vegas! as a resident, I am frightened to death as to why you might be here lol
-      probability vector [World, Sports, Business, Sci/Tech] = [0.422, 0.267, 0.121, 0.189]
+  [P(World)=0.713]  Ya know I was going to make a joke that the artists and animators are clearly having fun with her facial expressions but then it occurred to me that the same could be said for every character in this 
+      probability vector [World, Sports, Business, Sci/Tech] = [0.713, 0.065, 0.002, 0.221]
+  [P(World)=0.728]  📢 Israeli forces have struck the towns of Al-Qantara and Kounine in southern Lebanon with heavy blasts.
+      probability vector [World, Sports, Business, Sci/Tech] = [0.728, 0.084, 0.109, 0.080]
+  [P(World)=0.890]  And the Establishment Dems are going to reach across the aisle and strike a reconciliatory pose... maybe they'll issue some harsh words to Trump and his cabinet. Maybe not. Who knows. The spice must f
+      probability vector [World, Sports, Business, Sci/Tech] = [0.890, 0.005, 0.000, 0.104]
+  [P(World)=0.964]  Up all day for you but it was posted for me right after I fell asleep for the night lol. And you've got a cute face, always happy when you post it on Threads 🥰
+      probability vector [World, Sports, Business, Sci/Tech] = [0.964, 0.012, 0.007, 0.017]
+  [P(World)=0.868]  Obama's and Biden had solid backgrounds in administration and leadership. That's why the country ran well with them at the helm.
+      probability vector [World, Sports, Business, Sci/Tech] = [0.868, 0.026, 0.092, 0.014]
 
 === Sports: 5 examples ===
-  [P(Sports)=0.374]  I wonder if Elon’s chainsaw massacre had anything to do with anything?
-      probability vector [World, Sports, Business, Sci/Tech] = [0.103, 0.374, 0.247, 0.275]
-  [P(Sports)=0.484]  Mhm. Not always for here, but I just keep getting begged to show back up. Must be my natural charisma. [ ...Snickering to himself. He knows. ]
-      probability vector [World, Sports, Business, Sci/Tech] = [0.112, 0.484, 0.066, 0.338]
-  [P(Sports)=0.557]  Imagine being in bed with me and catching the view in this perfectly placed mirror 👀
-      probability vector [World, Sports, Business, Sci/Tech] = [0.006, 0.557, 0.418, 0.018]
-  [P(Sports)=0.481]  Bigots will allow their family and communities suffer in exchange for the mere illusion of inherent superiority over others
-      probability vector [World, Sports, Business, Sci/Tech] = [0.226, 0.481, 0.126, 0.167]
-  [P(Sports)=0.396]  i inadvertently did the Buddy (2026) criss-cross bandage thing
-      probability vector [World, Sports, Business, Sci/Tech] = [0.187, 0.396, 0.277, 0.140]
+  [P(Sports)=0.843]  that is, with the delusions it's paranoia about being physically harmed, and this is what inspires the aggression on my end; they can't kill me if I kill them first, basically. but with this it's not 
+      probability vector [World, Sports, Business, Sci/Tech] = [0.011, 0.843, 0.023, 0.123]
+  [P(Sports)=0.700]  Okay, I may not know all Schumer's done especially well, but what I've gotten so far didn't give me good vibes. So I've supported him not being leader. And this? Moving up the vote from the usual to s
+      probability vector [World, Sports, Business, Sci/Tech] = [0.011, 0.700, 0.074, 0.214]
+  [P(Sports)=0.720]  Teen-Age Romances #01 I Was 17 Years Old And A High School Senior. Was I... Too Young For Love? Any Girl Who Dares To Act The Way She Does Can Be Popular. Everyone Is Talking About Her. She's Not Popu
+      probability vector [World, Sports, Business, Sci/Tech] = [0.047, 0.720, 0.009, 0.224]
+  [P(Sports)=0.813]  🏁 FULLTIME — Montpellier W 0–1 FC Fleury 91 W. Feminine Division 1 #montpellierw #fcfleury91w #femininedivision1
+      probability vector [World, Sports, Business, Sci/Tech] = [0.002, 0.813, 0.079, 0.106]
+  [P(Sports)=0.705]  don't hype me up or i'll start twitch streaming games made by @buildthis.bisks.net
+      probability vector [World, Sports, Business, Sci/Tech] = [0.023, 0.705, 0.010, 0.262]
 
 === Business: 5 examples ===
-  [P(Business)=0.326]  😥
-      probability vector [World, Sports, Business, Sci/Tech] = [0.188, 0.191, 0.326, 0.295]
-  [P(Business)=0.322]  Goodnight, good aminals! :3 🌙🌲🌳🌲🐺🌲🌳🌲🌙
-      probability vector [World, Sports, Business, Sci/Tech] = [0.172, 0.224, 0.322, 0.282]
-  [P(Business)=0.555]  He’s a builder. Why is the builder shredding the blueprints to his projects?
-      probability vector [World, Sports, Business, Sci/Tech] = [0.319, 0.041, 0.555, 0.085]
-  [P(Business)=0.481]  ... Something funny to you, miss? [ Despite the deadpan delivery, this question is being asked sincerely. ]
-      probability vector [World, Sports, Business, Sci/Tech] = [0.105, 0.382, 0.481, 0.032]
-  [P(Business)=0.642]  Dude, why can they jump? WHY CAN THEY FLY?!
-      probability vector [World, Sports, Business, Sci/Tech] = [0.140, 0.136, 0.642, 0.082]
+  [P(Business)=0.760]  Yashchenko, D. (2026). Acta Universi: Analysis of AI Language Models Based on Different Human Languages and Writing Systems. Zenodo. doi.org/10.5281/zeno...
+      probability vector [World, Sports, Business, Sci/Tech] = [0.005, 0.016, 0.760, 0.220]
+  [P(Business)=0.793]  Many people don't realize that dumber has a backwards B in it...
+      probability vector [World, Sports, Business, Sci/Tech] = [0.040, 0.115, 0.793, 0.051]
+  [P(Business)=0.921]  Plane needs DEI to live, which is something the current administration is incapable of understanding
+      probability vector [World, Sports, Business, Sci/Tech] = [0.018, 0.025, 0.921, 0.036]
+  [P(Business)=0.995]  [LINE-UP] 11/14 <Semantic Error>, <Guiding Hazard>, <Circuit Breaker> 11/15 <The Hunter's Gonna Lay Low>, <DASH>, <Ebony Castle> 11/16 <Bound to Be>, <Plaything Senior>, <Blaze Out> 11/17 <Surviving a
+      probability vector [World, Sports, Business, Sci/Tech] = [0.001, 0.003, 0.995, 0.001]
+  [P(Business)=0.973]  US wholesale inflation hits highest annual rate in nearly four years The Producer Price Index rose 6.5% annually in October, the biggest increase since November 2022, driven by energy and food costs.
+      probability vector [World, Sports, Business, Sci/Tech] = [0.019, 0.001, 0.973, 0.007]
 
 === Sci/Tech: 5 examples ===
-  [P(Sci/Tech)=0.364]  In both holes? 😏😈
-      probability vector [World, Sports, Business, Sci/Tech] = [0.193, 0.232, 0.210, 0.364]
-  [P(Sci/Tech)=0.443]  cw #nsfw #vore #analvore sillay doodles done for partners..........
-      probability vector [World, Sports, Business, Sci/Tech] = [0.191, 0.123, 0.243, 0.443]
-  [P(Sci/Tech)=0.427]  [ Just staring at it. ] Okay. Thanks.
-      probability vector [World, Sports, Business, Sci/Tech] = [0.160, 0.029, 0.384, 0.427]
-  [P(Sci/Tech)=0.857]  I guess. Waitstaff never worked out. [ ...His mouth twitches like a smile tried to spread across his face but it was forced back by a force beyond him. ] Dunno why. I've got a sunny disposition. ... M
-      probability vector [World, Sports, Business, Sci/Tech] = [0.028, 0.111, 0.003, 0.857]
-  [P(Sci/Tech)=0.999]  Oh, sure. [ There's some sincerity to it despite a lack of warmth in his tone. Robots can tell when maintenance workers like their job, probably. There might even be evidence of this. ] More interesti
-      probability vector [World, Sports, Business, Sci/Tech] = [0.000, 0.001, 0.000, 0.999]
+  [P(Sci/Tech)=0.856]  Well alright, since you asked so nicely. 🤭 bsky.app/profile/lady...
+      probability vector [World, Sports, Business, Sci/Tech] = [0.015, 0.064, 0.065, 0.856]
+  [P(Sci/Tech)=0.976]  I'm in Dallas tomorrow for Well Read Fest with Tales on Tap (Dallas) at Grandscape The Colony,TX - if you want to go to Texas Book Fest, but can't make it to Austin, come check out this event in Dalla
+      probability vector [World, Sports, Business, Sci/Tech] = [0.001, 0.023, 0.001, 0.976]
+  [P(Sci/Tech)=0.776]  Frank Pierson 2000 · United States Review by Jonathan Henderson
+      probability vector [World, Sports, Business, Sci/Tech] = [0.023, 0.130, 0.071, 0.776]
+  [P(Sci/Tech)=0.725]  Oh wow not worth it then rockstar are just being money hungry then
+      probability vector [World, Sports, Business, Sci/Tech] = [0.012, 0.058, 0.205, 0.725]
+  [P(Sci/Tech)=0.918]  Next up another brand new local act, BYE GEMINI are electro-infused dark indie with a dream pop slant. Mesmerising vocals with a #melancholic trend - for fans of The Cure with a shiny #synth finish.
+      probability vector [World, Sports, Business, Sci/Tech] = [0.004, 0.039, 0.039, 0.918]

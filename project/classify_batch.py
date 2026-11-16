@@ -15,10 +15,19 @@ import argparse
 from pyspark.ml import PipelineModel
 from pyspark.ml.functions import vector_to_array
 from pyspark.sql import SparkSession
-from pyspark.sql.functions import array_max, col, concat_ws, format_number, transform, when
+from pyspark.sql.functions import (array_distinct, array_max, col, concat_ws, filter as array_filter,
+                                   format_number, lower, rand, size, split, transform, when)
 
 CLASS_NAMES = ["World", "Sports", "Business", "Sci/Tech"]
 EXAMPLES_PER_CLASS = 5
+EXAMPLE_SEED = 4371
+
+# Rules for choosing the example messages shown in the summary (the CSV
+# still contains every message). Without them the most confident predictions
+# are bot posts that repeat one word ("DING DING DING ...") and explicit posts.
+MIN_EXAMPLE_PROBABILITY = 0.7
+MIN_WORDS, MIN_DISTINCT_RATIO, MAX_MENTIONS = 6, 0.7, 2
+EXPLICIT_WORDS = r"\b(fuck\w*|shit\w*|nsfw|porn\w*|sex\w*|nude\w*|cock|cum|penis|pussy|dick|slut\w*|horny|vore\w*|onlyfans|ass|asses|bitch\w*|wtf|damn|kink\w*|fetish\w*|lewd\w*|forcefe\w*|\w*belly\w*|\w*tummy\w*|stuffing)\b"
 
 
 def class_name(prediction_col):
@@ -73,9 +82,23 @@ def main():
         n = counts.get(name, 0)
         lines.append(f"  {name:<9} {n:>7}  ({100 * n / total:.1f}%)")
 
+    # Example pool: confident predictions on readable messages
+    words = array_filter(split(lower(col("text")), "[^a-z]+"), lambda w: w != "")
+    readable = (predictions
+                .withColumn("n_words", size(words))
+                .withColumn("n_distinct", size(array_distinct(words)))
+                .filter(col("top_probability") >= MIN_EXAMPLE_PROBABILITY)
+                .filter(col("n_words") >= MIN_WORDS)
+                .filter(col("n_distinct") >= MIN_DISTINCT_RATIO * col("n_words"))
+                .filter(size(split(col("text"), "@")) - 1 <= MAX_MENTIONS)
+                .filter(~lower(col("text")).rlike(EXPLICIT_WORDS)))
+    lines += ["", f"Examples: {EXAMPLES_PER_CLASS} random messages per class (seed {EXAMPLE_SEED}) with",
+              f"predicted probability >= {MIN_EXAMPLE_PROBABILITY}, at least {MIN_WORDS} words, no heavy word",
+              f"repetition (spam bots), at most {MAX_MENTIONS} @mentions, and no explicit language."]
+
     for i, name in enumerate(CLASS_NAMES):
-        examples = (predictions.filter(col("predicted_label") == i)
-                    .orderBy(col("id"))
+        examples = (readable.filter(col("predicted_label") == i)
+                    .orderBy(rand(EXAMPLE_SEED))
                     .limit(EXAMPLES_PER_CLASS)
                     .collect())
         lines += ["", f"=== {name}: {len(examples)} examples ==="]
